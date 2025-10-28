@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!--(table) adiciona estilo de tabela-->
+        <!--(table-primary) adiciona cor a predefinida como primary.
+        secondary, danger, warning, info, light e dark sao possiveis cores predefinidas tbm
+        -->
+        <!--
+            (table-sm) diminui o padding pela metade
+            (table-striped) coloca cor intercalada na coluna
+            (table-hover) adiciona caracteristica do hover 
+            (table-bordered) adiciona linhas por volta de toda tabela
+            (align-middle) alinha no meio o conteudo desproporcional dentro da celula
+        -->
+        <table class="table table-striped table-hover table-bordered align-middle caption-top">
+            <thead class="table-info">
+                <tr>
+                    <th>coluna 1</th>
+                    <th>coluna 2</th>
+                    <th>coluna 3</th>
+                    <th>coluna 4</th>
+                </tr>
+            </thead>
+            <!--(table-group-divider) adiciona linha que divide o cabecalho-->
+            <tbody class="table-group-divider">
+                <tr>
+                    <td>coluna 1</td>
+                    <td>coluna 2</td>
+                    <td>coluna 3</td>
+                    <td>coluna 4</td>
+                </tr>
+                <tr>
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci provident repellat autem
+                        molestiae, quis vitae ipsa optio mollitia aperiam iusto obcaecati nesciunt quia architecto
+                        aliquid consequuntur reiciendis voluptatum consequatur praesentium tempora laboriosam expedita
+                        officia, fuga sequi. Facere modi consequatur minus ipsam repellendus ex dolor ducimus iusto quod
+                        quae, expedita iure.</td>
+                    <td>coluna 2</td>
+                    <td>coluna 3</td>
+                    <td>coluna 4</td>
+                </tr>
+                <tr>
+                    <td>coluna 1</td>
+                    <td>coluna 2</td>
+                    <td>coluna 3</td>
+                    <td>coluna 4</td>
+                </tr>
+                <tr>
+                    <td>coluna 1</td>
+                    <td>coluna 2</td>
+                    <td>coluna 3</td>
+                    <td>coluna 4</td>
+                </tr>
+                <tr>
+                    <td>coluna 1</td>
+                    <td>coluna 2</td>
+                    <td>coluna 3</td>
+                    <td>coluna 4</td>
+                </tr>
+            </tbody>
+            <caption class="text-end">titulo da tabela</caption>
+        </table>
+        <!-- (div.table-responsive) adiciona responsividade na tabela, somente a tabela ganha uma barra de rolagem lateral sem afetar a parte de fora-->
+    </div>
+</body>
+
+</html>
